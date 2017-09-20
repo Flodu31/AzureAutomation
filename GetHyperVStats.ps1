@@ -28,6 +28,8 @@ $creds = Get-AutomationPSCredential -Name 'OnPrem Admin Account'
          }
      }
 
+     Write-Output "The script is finished..."
+
 }
 
 $hpvHost = Get-AutomationVariable -Name 'HyperV-Hosts'
